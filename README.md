@@ -55,9 +55,10 @@
 ![image](https://user-images.githubusercontent.com/110883172/210025666-1cc47ecb-6340-437b-94d5-3d9c870d2431.png)
 
   - 컨베이어 벨트에서의 detection 실험
-  ![20221229_160249_AdobeExpress](https://user-images.githubusercontent.com/110883172/210025770-25e307ee-be0a-4042-a48b-423a29842805.gif)
-  
-  
+
+![20221229_160249_AdobeExpress](https://user-images.githubusercontent.com/110883172/210025770-25e307ee-be0a-4042-a48b-423a29842805.gif)
+
+
   - 판단데이터는 AWS에 저장
 
 
