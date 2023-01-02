@@ -62,7 +62,7 @@
   - 판단데이터는 AWS에 저장
 
 
-#### PART 3. 플루를 통한 모니터링 앱구현 (조이삭, 정재욱)
+#### PART 3. 플루터를 통한 모니터링 앱구현 (조이삭, 정재욱)
 ![image](https://user-images.githubusercontent.com/110883172/210025846-926cf4e9-80f4-4ed4-a679-ada67d88445d.png)
 
 - __목표__
