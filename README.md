@@ -70,28 +70,14 @@ LCD를 화면에 띄우는 것과 시리얼 통신으로 입력받은 데이터�
 
 ------
 
-#### PART 2. 생산품의 불량여부 판단 및 데이터 처리 (김두엽, 류도현, 정재욱, 이미영)
+## PART 2. 생산품의 불량여부 판단
+### OpenCV 허프변환을 통한 원검출
+#### 동전을 검출해보기
+<center><img src="https://user-images.githubusercontent.com/110883172/210025302-9d2c4a95-28b3-4ba2-8281-3070f7a806d5.png" width="600" height="600"/></center>
 
-- __OpenCV 허프변환을 통한 원검출 
-![image](https://user-images.githubusercontent.com/110883172/210025302-9d2c4a95-28b3-4ba2-8281-3070f7a806d5.png)
+#### 컨베이어 벨트에서의 circle detection 실험
+![KakaoTalk_20230102_231822804_AdobeExpress](https://user-images.githubusercontent.com/110883172/210243614-e635fe3b-9697-4b8b-884b-c0cc0c122f44.gif)
 
-
-- __원을 검출하여 불량여부를 판단하여 LCD에 출력하는 코드__
-  - 아무것도 detect하지 못한 경우
-![image](https://user-images.githubusercontent.com/110883172/210025515-d03b7048-abc9-4d81-a730-8ba54c58725a.png)
-
-  - 도형의 종류, 불량여부, 반지름을 LCD에 표시 (100원인 경우 정상)
-![image](https://user-images.githubusercontent.com/110883172/210025647-1f08647d-9336-4a2a-9b81-53e454ce846e.png)
-
-  - 500원인 경우 불량으로 판단
-![image](https://user-images.githubusercontent.com/110883172/210025666-1cc47ecb-6340-437b-94d5-3d9c870d2431.png)
-
-  - 컨베이어 벨트에서의 detection 실험
-
-![20221229_160249_AdobeExpress](https://user-images.githubusercontent.com/110883172/210025770-25e307ee-be0a-4042-a48b-423a29842805.gif)
-
-
-  - 판단데이터는 AWS에 저장
 
 
 #### PART 3. 플루터를 통한 모니터링 앱구현 (조이삭, 정재욱)
