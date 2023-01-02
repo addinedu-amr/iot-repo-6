@@ -23,7 +23,7 @@
 
 -------
 
-## __ PART 1. 물품구매와 각 센서들의 동작 구현
+## PART 1. 물품구매와 각 센서들의 동작 구현
 - __물품 구매__
   - 컨베이어 벨트 구매 및 제작
 ![image](https://user-images.githubusercontent.com/110883172/210024853-8f2cd202-db46-435d-8ff9-c8b6071170ff.png)
