@@ -16,15 +16,16 @@
 
 
 ## 프로젝트 설계도 및 배치
-![블록선도](https://user-images.githubusercontent.com/110883172/210024398-f8201f95-e5db-4bad-a5c7-2be502916bed.png)
+![블록선도 drawio](https://user-images.githubusercontent.com/110883172/210239215-edd5acf7-f9e5-409b-80ea-1aa23dc0c62a.png)
+
 
 </br>
 
 -------
 
-#### __ PART 1. 컨베이어 벨트 제작 및 구현 (정재욱, 조이삭, 이미영)__
-
-- __컨베이어 벨트 제작__
+## __ PART 1. 물품구매와 각 센서들의 동작 구현
+- __물품 구매__
+  - 컨베이어 벨트 구매 및 제작
 ![image](https://user-images.githubusercontent.com/110883172/210024853-8f2cd202-db46-435d-8ff9-c8b6071170ff.png)
 
 - __아두이노를 통한 구현 과정__
