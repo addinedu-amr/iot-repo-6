@@ -37,13 +37,36 @@
 
 비상정지 버튼을 누르는 경우 컨베이어벨트 비상정지
 
+</br>
+</br>
+
 
 ### __LCD 구현__
 <center><img src="https://user-images.githubusercontent.com/110883172/210240605-6bf25a0b-aa0e-4efd-815f-6ded8de6522e.png" width="800" height="200"/></center>
 
- - LCD를 화면에 띄우는 것과 시리얼 통신으로 입력받은 데이터를 LCD에 띄우는 것을 구현함.
+LCD를 화면에 띄우는 것과 시리얼 통신으로 입력받은 데이터를 LCD에 띄우는 것을 구현함.
 
-### __
+</br>
+</br>
+
+
+### __서보모터__
+<center><img src="https://user-images.githubusercontent.com/110883172/210241633-1174424b-e527-46ec-9772-caf32a1123c9.png" width="400" height="200"/></center>
+
+서보모터를 통해 불량품과 양품을 구별함.
+
+</br>
+</br>
+
+
+### __레이저 센서__
+<center><img src="https://user-images.githubusercontent.com/110883172/210241986-66503b9e-2186-4fec-877a-adf6067078c4.png" width="400" height="200"/></center>
+
+레이저 센서를 통해 물품을 인식하고, 개수를 카운트하도록 구현함.
+
+</br>
+</br>
+
 
 ------
 
