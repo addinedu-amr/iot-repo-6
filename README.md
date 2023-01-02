@@ -24,18 +24,24 @@
 -------
 
 ## PART 1. 물품구매와 각 센서들의 동작 구현
-- __물품 구매__
-  - 컨베이어 벨트 구매 및 제작
-![image](https://user-images.githubusercontent.com/110883172/210024853-8f2cd202-db46-435d-8ff9-c8b6071170ff.png)
+### __컨베이어 벨트__
+#### __ㅇ 컨베이어 벨트 구매 및 제작__
+  <center><img src="https://user-images.githubusercontent.com/110883172/210024853-8f2cd202-db46-435d-8ff9-c8b6071170ff.png" width="400" height="400"/></center>
 
-- __아두이노를 통한 구현 과정__
-![image](https://user-images.githubusercontent.com/110883172/210024957-d39deb3f-3cae-439f-afb8-d2194a50f105.png)
+#### __ㅇ 아두이노를 통한 구현 과정__
+<center><img src="https://user-images.githubusercontent.com/110883172/210024957-d39deb3f-3cae-439f-afb8-d2194a50f105.png" width="400" height="400"/></center>
+
+- 아두이노와 모터드라이브를 통해 컨베이어벨트의 속도 조절
+- 초음파센서를 이용하여 작업자가 접근하는 경우 컨베이어벨트 비상 정지
+- 비상정지 버튼을 누르는 경우 컨베이어벨트 비상정지
 
 
-- __세부 동작 설명__
-  - 아두이노와 모터드라이브를 통해 컨베이어벨트 조절
-  - 초음파센서를 이용하여 작업자가 접근하는 경우 컨베이어벨트 비상 정지
-  - 비상정지 버튼을 누르는 경우 컨베이어벨트 비상정지
+### __LCD 구현__
+<center><img src="https://user-images.githubusercontent.com/110883172/210240605-6bf25a0b-aa0e-4efd-815f-6ded8de6522e.png" width="800" height="200"/></center>
+
+ - LCD를 화면에 띄우는 것과 시리얼 통신으로 입력받은 데이터를 LCD에 띄우는 것을 구현함.
+
+### __
 
 ------
 
