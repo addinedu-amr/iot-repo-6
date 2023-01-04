@@ -25,7 +25,11 @@
 
 
 ## 프로젝트 설계도 및 배치
+# 제어흐름도
 ![블록선도 drawio](https://user-images.githubusercontent.com/110883172/210239215-edd5acf7-f9e5-409b-80ea-1aa23dc0c62a.png)
+
+# 회로도
+![image](https://user-images.githubusercontent.com/110883172/210605920-f79bfb4e-cfbb-4264-bb08-c316c64e3b4d.png)
 
 
 </br>
