@@ -95,6 +95,14 @@ __3. 언제 어디서든 모니터링 가능한 환경 구축__
 -------
 
 ## PART 1. 물품구매와 각 센서들의 동작 구현
+
+### 필요물품 및 프로그램 정리
+
+![image](https://user-images.githubusercontent.com/110883172/211437056-6bf07fd4-416b-4eaa-b487-209fdb2d49ba.png)
+
+</br>
+</br>
+
 ### __ㅇ 컨베이어 벨트__
 #### __>> 컨베이어 벨트 구매 및 제작__
   <center><img src="https://user-images.githubusercontent.com/110883172/210024853-8f2cd202-db46-435d-8ff9-c8b6071170ff.png" width="400" height="400"/></center>
@@ -144,6 +152,7 @@ LCD를 화면에 띄우는 것과 시리얼 통신으로 입력받은 데이터�
 ## PART 2. 생산품의 불량여부 판단
 ### OpenCV 허프변환을 통한 원검출
 #### 동전을 검출해보기
+
 <center><img src="https://user-images.githubusercontent.com/110883172/210025302-9d2c4a95-28b3-4ba2-8281-3070f7a806d5.png" width="600" height="600"/></center>
 
 </br>
@@ -152,17 +161,32 @@ LCD를 화면에 띄우는 것과 시리얼 통신으로 입력받은 데이터�
 #### 컨베이어 벨트에서의 circle detection 실험
 ![KakaoTalk_20230102_231822804_AdobeExpress](https://user-images.githubusercontent.com/110883172/210243614-e635fe3b-9697-4b8b-884b-c0cc0c122f44.gif)
 
+- 알고리즘
+![image](https://user-images.githubusercontent.com/110883172/211437154-dd6d2c16-04ae-410b-bf24-7615667f274a.png)
+
+
 </br>
 </br>
 
 ------
 
 ## PART 3. 컨베이어 벨트에서 센서들을 활용하여 불량여부 판단하고 분리하기 (모든 요소 결합하기)
-![IMG_1840_MOV_AdobeExpress (1)](https://user-images.githubusercontent.com/110883172/210244377-fbb891e9-5cc8-4fd5-8e04-b115ca032478.gif)
+![IMG_1840_MOV_AdobeExpress (1)](https://user-images.githubusercontent.com/110883172/210244377-fbb891e9-5cc8-4fd5-8e04-b115ca032478.gif
+
 ### 동작 설명
 A 아두이노가 컨베이어 벨트를 구동
 
 카메라를 통해 원을 detection -> B아두이노에 데이터를 전달 -> 레이저센서에서 거리가 detection시 서보모터 작동
+
+
+
+### 모든 구성요소 결합하기
+#### 완성된 하드웨어의 모습
+![image](https://user-images.githubusercontent.com/110883172/211437362-7def3ac0-18da-4286-b974-4f0a3ee23666.png)
+-컨베이어를 구동하는 아두이노와 서보모터를 동작해 물품을 분류하는 아두이노로 구성됨.
+
+
+
 
 ## PART 4. 데이터의 흐름 정리 및 firebase에 데이터 전송
 ### __목표__
