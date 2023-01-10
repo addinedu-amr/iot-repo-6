@@ -272,5 +272,5 @@ doc_ref.set(({u'rate': R, u'trial': T}))
 
 
 ### 시연 영상
-[![Video Label](https://i9.ytimg.com/vi/k923l4ppG8k/mq1.jpg?sqp=CMiI850G&rs=AOn4CLAYfAe76Va4jtcI4K45R8svbXxoqQ)]
+![Video Label](https://i9.ytimg.com/vi/k923l4ppG8k/mq1.jpg?sqp=CMiI850G&rs=AOn4CLAYfAe76Va4jtcI4K45R8svbXxoqQ)
 (https://youtu.be/k923l4ppG8k)
