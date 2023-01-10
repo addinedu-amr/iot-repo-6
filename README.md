@@ -264,5 +264,12 @@ doc_ref.set(({u'rate': R, u'trial': T}))
 
 #### PART 6. 언리얼엔진을 통한 디지털트윈 구현
 
-- __목표__
+### 목표
   - 가상공간에 생산라인을 구현하여 가상공간에서 실시간 모니터링
+
+
+### 구현 과정
+
+
+### 시연 gif
+![디지털트윈_AdobeExpress](https://user-images.githubusercontent.com/110883172/211439734-17a1f13b-91bd-4428-ae5d-d95d48ba8a6b.gif)
