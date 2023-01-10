@@ -9,6 +9,16 @@
 </br>
 
 ## 개요
+
+### 발표자료 및 시연 영상
+![image](https://user-images.githubusercontent.com/110883172/211439396-2ce56802-9e20-46ca-9db0-7f405db29c80.png)
+![image](https://user-images.githubusercontent.com/110883172/211439416-50c2c309-a860-4e1f-a628-9da70a52a696.png)
+![image](https://user-images.githubusercontent.com/110883172/211439436-571dcb5e-8bb7-4ab1-b08d-136861df767c.png)
+
+https://drive.google.com/drive/u/1/folders/1S4-qjXNvgSVtVAN566lB0PACdmTJGy4S
+
+
+
 ### 문제인식
 - 자동화된 생산라인에서 어떻게 하면 수율을 올릴 수 있을까?
 - 자동화된 생산라인에서 어떻게 하면 안정성을 높일 수 있을까?
