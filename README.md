@@ -272,4 +272,4 @@ doc_ref.set(({u'rate': R, u'trial': T}))
 
 
 ### 시연 gif
-![디지털트윈_AdobeExpress](https://user-images.githubusercontent.com/110883172/211439734-17a1f13b-91bd-4428-ae5d-d95d48ba8a6b.gif)
+ <center><img src="https://user-images.githubusercontent.com/110883172/211439734-17a1f13b-91bd-4428-ae5d-d95d48ba8a6b.gif" width="800" height="600"/></center>
