@@ -272,5 +272,4 @@ doc_ref.set(({u'rate': R, u'trial': T}))
 
 
 ### 시연 영상
-<center><img src="https://i9.ytimg.com/vi/k923l4ppG8k/mq1.jpg?sqp=CMiI850G&rs=AOn4CLAYfAe76Va4jtcI4K45R8svbXxoqQ" width="600" height="600"/></center>
-![Video Label](https://youtu.be/k923l4ppG8k)
+<center><img src="https://i9.ytimg.com/vi/k923l4ppG8k/mq1.jpg?sqp=CMiI850G&rs=AOn4CLAYfAe76Va4jtcI4K45R8svbXxoqQ" width="600" height="200"/></center>(https://youtu.be/k923l4ppG8k)
