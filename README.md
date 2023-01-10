@@ -215,15 +215,41 @@ doc_ref = db.collection(u'err_rate').document(str(T))
 doc_ref.set(({u'rate': R, u'trial': T})) 
 ```
 
-다음의 코드를 활용하여 데이터를 올린다.
+- 다음의 코드를 활용하여 데이터를 올린다.
+
+### 프로젝트에 사용하는 데이터
+
+![Untitled](https://user-images.githubusercontent.com/110883172/211438632-9f98d8b6-8542-4bdd-97b2-5cfe7136cf52.png)
+![Untitled (1)](https://user-images.githubusercontent.com/110883172/211438633-fca4512f-a489-46a3-ae30-da33454b9d48.png)
+![Untitled (2)](https://user-images.githubusercontent.com/110883172/211438634-4abaf3f1-ef26-45c4-b670-2b0d63464072.png)
+![Untitled (3)](https://user-images.githubusercontent.com/110883172/211438636-95244d92-48c0-4774-9eb6-a54b1f0320b2.png)
+
 
 
 ## PART 5. 플루터를 통한 모니터링 앱구현
 ![image](https://user-images.githubusercontent.com/110883172/210025846-926cf4e9-80f4-4ed4-a679-ada67d88445d.png)
 
-- __목표__
+### __목표__
   - 블루투스를 통해 컨베이어 벨트의 작동 및 중지 명령
   - 생산라인 상황을 실시간으로 모니터링 할 수 있는 시각화 자료 제공
+
+### 앱 UI
+#### 처음 시작화면
+![Untitled (4)](https://user-images.githubusercontent.com/110883172/211438795-5640b4b7-6a5f-41ec-a9ff-6c07489e319c.png)
+- 블루투스를 통해 컨베이어 벨트 아두이노와 통신한다.
+
+#### 메인화면
+![Untitled (6)](https://user-images.githubusercontent.com/110883172/211438852-fdfe126d-4cbb-42ec-9cf2-5d8e8eb8dd4a.png)
+- 컨베이어 벨트를 작동 시키거나 정지시킬 수 있다.
+
+![Untitled (9)](https://user-images.githubusercontent.com/110883172/211439020-03391b2e-a2b2-4b99-8dc7-b1aef4c26c49.png)
+- 사람의 동작을 감지한 경우 (초음파 센서)
+
+#### 시각화 데이터
+- 메인화면에서 실시간 데이터 버튼을 클릭하면 다음과 같은 화면이 나온다.
+![Untitled (7)](https://user-images.githubusercontent.com/110883172/211438934-8e5dcc76-a070-4c96-baeb-402609912752.png)
+![Untitled (8)](https://user-images.githubusercontent.com/110883172/211438941-326d8297-91bf-49ec-83a0-5a0dad4a22ad.png)
+
 
 
 #### PART 6. 언리얼엔진을 통한 디지털트윈 구현
