@@ -198,13 +198,23 @@ A 아두이노가 컨베이어 벨트를 구동
 ### __구현과정__
 - 우선 가상환경에 firebase_admin을 pip로 다운로드 하여야 한다.
 
-'''Python
+'''python
 import firebase_admin
 
 from firebase_admin import credentials
 from firebase_admin import firestore
 from firebase_admin import db
+
+cred = credentials.Certificate("json파일 위치 지정")
+firebase_admin.initialize_app(cred, {
+ 'databaseURL' : "데이터 베이스 주소"
+})
+db = firestore.client()
+
+doc_ref = db.collection(u'err_rate').document(str(T))
+doc_ref.set(({u'rate': R, u'trial': T})) 
 '''
+다음의 코드를 활용하여 데이터를 올린다.
 
 
 ## PART 5. 플루터를 통한 모니터링 앱구현
