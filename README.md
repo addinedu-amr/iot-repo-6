@@ -271,5 +271,5 @@ doc_ref.set(({u'rate': R, u'trial': T}))
 ### 구현 과정
 
 
-### 시연 gif
- <center><img src="https://user-images.githubusercontent.com/110883172/211439734-17a1f13b-91bd-4428-ae5d-d95d48ba8a6b.gif" width="800" height="600"/></center>
+### 시연 영상
+ <center><img src="https://youtu.be/k923l4ppG8k" width="800" height="600"/></center>
